@@ -1,0 +1,12 @@
+/*contact.html*/
+#submit{
+    border: 10px;
+    border-radius: 50px;
+    background-color: blue;
+    color: antiquewhite;
+}
+
+#submit:hover{
+    background-color: lch(45.74% 66.33 133.58);
+    
+}

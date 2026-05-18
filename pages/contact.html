@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
     <title>Contacts</title>
 </head>
 
@@ -24,7 +25,7 @@
             <strong>clinic (24/7):</strong><a href="tel:+254-723-496-260">+254&nbsp;723&nbsp;496&nbsp;260</a><br>
             <strong>Email:</strong><a href="mailto:victonaleacademy@gmail.com">victonaleacademy@gmail.com</a>
         </address><br>
-        <form action="" method="post">
+        <form action="#" method="post">
             <fieldset>
                 <legend><strong>General Enquiry Form</strong></legend>
                 <p>
@@ -33,11 +34,11 @@
                 </p>
                 <p>
                     <label for="email">Email Address:*</label><br>
-                    <input type="email" id="email" required size="30" placeholder="example@gmail.com">
+                    <input type="email" id="email" required size="30" placeholder="example@gmail.com" name="email">
                 </p>
                 <p>
                     <label for="phone_number">Phone Number:</label><br>
-                    <input type="tell" required placeholder="+254 7XX XXX XXX">
+                    <input type="tel" placeholder="+254 7XX XXX XXX" id="phone_number" name="phone_number">
                 </p>
                 <p>
                     <label for="occupation">I am a:</label><br>
@@ -75,7 +76,7 @@
                 <input type="checkbox" id="subscription" name="newsletter_subscription">
                 <label for="subscription">Subscribe&nbsp;to&nbsp;our&nbsp;school&nbsp;newsletter</label>
             </p>
-            <input type="submit" value="submit" name="submit">
+            <input type="submit" value="submit" name="submit" id="submit">
             <input type="reset" value="clear" name="reset">
         </form>
     </main>
