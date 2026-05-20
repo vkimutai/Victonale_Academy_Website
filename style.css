@@ -1,12 +1,39 @@
 /*contact.html*/
 #submit{
-    border: 10px;
     border-radius: 50px;
     background-color: blue;
     color: antiquewhite;
+    font-size: 20px;
+    padding: 0.5em;
+    margin: 20px;
+    border-color: chartreuse;
 }
 
 #submit:hover{
     background-color: lch(45.74% 66.33 133.58);
     
+}
+
+
+fieldset, #general{
+    width: 40%;
+    background-color: blueviolet;
+    border: 2px;
+    border-radius: 50px;
+    margin: 10px;
+    padding: 10px;
+}
+
+legend{
+    text-align: center;
+
+}
+input, select, textarea{
+    background-color: aqua;
+}
+
+.visit{
+    color: aqua;
+    width: 50%;
+    word-wrap: break-word;
 }
